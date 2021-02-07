@@ -1,0 +1,29 @@
+.recipeBox{
+    border-radius: 10px;
+    box-shadow: 0px 5px 20px rgb(71,71,71);
+    background: white;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 50px auto;
+    align-items: center;
+    width: 70%;
+}
+
+.line{
+    height: 3px;
+    width: 100%;
+    background: black;
+    margin: 10px 0;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    padding: 20px;
+}
+
+.grid .img{
+    border-radius: 20px;
+}
